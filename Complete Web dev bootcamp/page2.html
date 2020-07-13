@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays, if-else, objects JS tut</title>
+</head>
+<body>
+    <h5>Arrays, Conditional Ops Tutorial in javascript</h5>
+    <p>See console for JS output</p>
+</body>
+<script>
+    let var1 = 10;
+    switch (var1) {
+        
+        case 10:
+            console.log(`In switch case`);
+            console.log(`the value is ${10}`);
+            break;
+    
+        default:
+            console.log(`No Value matched`);
+            break;
+    }
+    let determiner = 1;
+    let var2 = var1*determiner;
+    if(var2)
+    {
+        console.log(`IF-Else Condition is true at ${var2}`)
+    }
+    else
+    {
+        console.log(`Condition is false at ${var2}`)
+    }
+    // Arrays
+    let array1 = [2, 1, `string1`, `arnab`];
+    console.log(`${array1}`);
+    array1.sort();
+    console.log(`${array1.length}`);
+    array1.push(`New String Pushed`);
+    console.log(`${array1}`);
+</script>
+</html>
