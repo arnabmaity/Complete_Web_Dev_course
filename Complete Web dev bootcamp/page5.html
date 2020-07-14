@@ -47,12 +47,20 @@
     }
     obj1.speak();
 
-    // function speak()
-    // {
-    //     for(let i=0;i<obj1.list1.length;i++)
-    //         console.log(obj1.greeting_message+ obj1.list1[i]);
-    // }
-    // speak();
-
+    function speak()
+    {
+        for(let i=0;i<obj1.list1.length;i++)
+            console.log(obj1.greeting_message+ obj1.list1[i]);
+    }
+    speak();
+    // To print key value 
+    let i = 0;
+    for(keys in obj1)
+    {
+        console.log(`Key = `);
+        // console.log(Object.keys(obj1)[i]);
+        console.log(Object.keys(obj1)[i]+` `+obj1[Object.keys(obj1)[i]]);
+        i++;
+    }
 </script>
 </html>
