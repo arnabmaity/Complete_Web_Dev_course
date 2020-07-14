@@ -34,5 +34,25 @@
     {
         document.getElementById("time").innerHTML = new Date();
     }
+    let obj1 =
+    {
+        greeting_message:"Good Afternoon ",
+        list1 : ["Arnab", "Ajay", "Harry"],
+        speak()
+        {
+            for(let i=0;i<this.list1.length;i++)
+                console.log(this.greeting_message + this.list1[i]);
+        }
+        
+    }
+    obj1.speak();
+
+    // function speak()
+    // {
+    //     for(let i=0;i<obj1.list1.length;i++)
+    //         console.log(obj1.greeting_message+ obj1.list1[i]);
+    // }
+    // speak();
+
 </script>
 </html>
