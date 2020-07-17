@@ -1,0 +1,12 @@
+/* element selector */
+p{
+    background-color: bisque;
+}
+/* class selector */
+.para{
+    font-size: 4px solid;
+}
+/* id selector */
+#first_line{
+    font-weight: bold;
+}
